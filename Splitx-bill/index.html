@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <title>Beris-Billsplita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bill Split on a Click</h2>
+     <form>
+        <label for="sum" >Amount</label><br>
+        <input type="number" id="amount"> <br> <br>
+        <label for="people" >No of people</label> <br>
+        <input type="number" id="peole"> <br> <br> <br> <br>
+
+        <button onclick="splitbill()" id="btn1">Split Bill</button>
+
+       <marquee behavior="blinking" direction=""><p id="result"></p>Each person Pays ....!!!</p></marquee>         
+     </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
